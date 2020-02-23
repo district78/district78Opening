@@ -43,10 +43,7 @@ Table of Contents:
 @import url(css_3.css);
 @import url(css_2.css);
 @import "simple-line-icons.css";
-@import "ionicons.min.css";
-
-
-@font-face{
+@import "ionicons.min.css";@font-face{
 	font-family:"Jack";
 	src:url("../fonts/b41558bd-2862-46c0-abf7-536d2542fa26.eot");
 	src:url("../fonts/b41558bd-2862-46c0-abf7-536d2542fa26.eot") format("eot"),url("../fonts/5cee8d6e-89ad-4d8c-a0ac-584d316b15ae.woff2") format("woff2"),url("../fonts/388ef902-2c31-4818-abb1-a40dcd81f6d6.woff") format("woff"),url("../fonts/29c60077-2614-4061-aa8d-5bcfdf7354bb.ttf") format("truetype"),url("../fonts/76250d27-b353-4f3b-90c6-0ff635fabaab.svg") format("svg");
@@ -178,7 +175,7 @@ span.yellow_l {
 @media (max-width:600px) {
     .project-title {
         font-size: 24px;
-    }
+    }body {  padding-top:55px;}
 
    .responsive-img {
     width: 100%;
@@ -273,10 +270,7 @@ span.yellow_l {
   65% {
     -webkit-transform: scale(0.005);
   }
-}
-
-
-@-moz-keyframes cubemove {
+}@-moz-keyframes cubemove {
   35% {
     -moz-transform: scale(0.005);
   }
@@ -982,9 +976,6 @@ nav li {
 .navbar-small .navbar-nav>li>a:focus {
     color: #1c1c1c;
 }
-
-
-
 /*Navbar Collapse*/
 @media (max-width: 992px) {
     .navbar-default .navbar-collapse {
@@ -1127,10 +1118,7 @@ nav li {
     opacity: 1;
     margin-top: -8px;
 }
-/* End Logo Small Black */
-
-
-@media (max-width: 768px) {
+/* End Logo Small Black */@media (max-width: 768px) {
    .navbar-collapse {
       max-height: none;
       overflow-x: hidden;
@@ -1251,10 +1239,7 @@ nav li {
     .navbar-default .navbar-nav .open .dropdown-menu>li>a {
         color: #CCC;
     }
-}
-
-
-.navbar-default .navbar-nav>.active>a,
+}.navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     background-color: transparent;
@@ -1869,10 +1854,7 @@ blockquote strong {
     #quote blockquote {
         font-size: 22px;
     }
-}
-
-
-/*----- Portfolio -----*/
+}/*----- Portfolio -----*/
 #portfolio {
     padding-top: 60px;
 }
@@ -2993,10 +2975,7 @@ footer a:hover {
 }
 .home-signin a {
    margin-top: 50px;
-}
-
-
-/*----- Twitter Feed -----*/
+}/*----- Twitter Feed -----*/
 #twitter-feed {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -3034,10 +3013,7 @@ footer a:hover {
 }
 .to-top {
     cursor: pointer;
-}
-
-
-/*----- Shortcodes -----*/
+}/*----- Shortcodes -----*/
 
 /*-- Buttons --*/
 .btn-primary {
@@ -3848,10 +3824,7 @@ pre {
 .comment-form input, select, textarea {
     margin: 3px 0px 10px 0;
     -webkit-border-radius: 2px;
-}
-
-
-#masonry .column {
+}#masonry .column {
     padding: 15px;
 }
 #masonry .blog-column {
@@ -3880,9 +3853,6 @@ pre {
     margin-top: 20px;
     margin-left: 0;
 }
-
-
-
 .pricing_table {
 	float: left;
 	width: 100%;
