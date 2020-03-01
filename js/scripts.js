@@ -137,7 +137,7 @@
             }
 
             $submit
-                .after('<img src="img/assets/contact-form-loader.gif" class="loader" />')
+                .after('<img src="img/contact-form-loader.gif" class="loader" />')
                 .attr('disabled','disabled');
 
             $.ajax({
